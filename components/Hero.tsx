@@ -60,7 +60,7 @@ export function Hero() {
                 <div className="relative bg-white rounded-3xl shadow-2xl p-6 lg:p-8 max-w-xs">
                   <div className="w-full bg-gradient-to-br from-[#FFF5EB] to-white rounded-2xl overflow-hidden shadow-lg">
                     <ImageWithFallback
-                      src="/assets/iphone.png"
+                      src={`${import.meta.env.BASE_URL}assets/iphone.png`}
                       alt="MyAbilities app interface showing accessible task management"
                       className="w-full h-auto object-contain max-w-[280px] mx-auto"
                     />

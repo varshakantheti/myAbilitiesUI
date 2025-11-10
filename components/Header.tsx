@@ -57,13 +57,13 @@ export function Header() {
             aria-label="MyAbilities Home"
           >
             <img 
-              src="/assets/logo.png" 
+              src={`${import.meta.env.BASE_URL}assets/logo.png`} 
               alt="MyAbilities Logo" 
               className="h-20 w-auto group-hover:opacity-90 transition-opacity"
               onError={(e) => {
                 // Fallback to SVG if PNG doesn't exist
                 const target = e.target as HTMLImageElement;
-                target.src = '/assets/logo.svg';
+                target.src = `${import.meta.env.BASE_URL}assets/logo.svg`;
               }}
             />
           </a>

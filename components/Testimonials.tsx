@@ -104,7 +104,7 @@ export function Testimonials() {
           <Button 
             size="lg"
             variant="outline"
-            className="border-2 border-white text-white hover:bg-white hover:text-[#1E3A5F] rounded-xl h-14 px-8 transition-all text-lg group"
+            className="border-2 border-white bg-white text-[#1E3A5F] hover:bg-white/90 hover:text-[#1E3A5F] rounded-xl h-14 px-8 transition-all text-lg group"
           >
             Read More Stories
             <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />

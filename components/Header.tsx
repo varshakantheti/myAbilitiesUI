@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Button } from "./ui/button";
-import { Phone, Globe, Home } from "lucide-react";
+import { Phone, Globe, Download } from "lucide-react";
 
 export function Header() {
   const [language, setLanguage] = useState<"en" | "es">("en");
@@ -18,7 +18,8 @@ export function Header() {
       products: "Products",
       mission: "Mission",
       donate: "Donate Now",
-      call: "Call"
+      call: "Call",
+      download: "Download App"
     },
     es: {
       home: "Inicio",
@@ -26,7 +27,8 @@ export function Header() {
       products: "Productos",
       mission: "Misión",
       donate: "Donar Ahora",
-      call: "Llamar"
+      call: "Llamar",
+      download: "Descargar App"
     }
   };
 
@@ -42,12 +44,16 @@ export function Header() {
             className="flex items-center gap-3 group focus:outline-2 focus:outline-[#FFB366] focus:outline-offset-4 rounded-lg"
             aria-label="MyAbilities Home"
           >
-            <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-[#FFB366] to-[#FF9A4D] flex items-center justify-center shadow-md group-hover:shadow-lg transition-all">
-              <Home className="w-7 h-7 text-white" />
-            </div>
-            <div className="hidden md:block">
-              <span className="text-[#1E3A5F] text-xl block">MyAbilities</span>
-            </div>
+            <img 
+              src="/assets/logo.png" 
+              alt="MyAbilities Logo" 
+              className="h-20 w-auto group-hover:opacity-90 transition-opacity"
+              onError={(e) => {
+                // Fallback to SVG if PNG doesn't exist
+                const target = e.target as HTMLImageElement;
+                target.src = '/assets/logo.svg';
+              }}
+            />
           </a>
 
           {/* Navigation */}
@@ -84,6 +90,16 @@ export function Header() {
             >
               <Globe className="w-4 h-4" />
               <span className="uppercase">{language === "en" ? "ES" : "EN"}</span>
+            </Button>
+
+            {/* Download Button */}
+            <Button 
+              variant="outline"
+              className="hidden md:flex items-center gap-2 border-2 border-[#1E3A5F] text-[#1E3A5F] hover:bg-[#1E3A5F] hover:text-white rounded-xl h-11 px-5 transition-all"
+              onClick={() => window.location.href = '#download'}
+            >
+              <Download className="w-4 h-4" />
+              <span>{t.download}</span>
             </Button>
 
             {/* Call Button */}

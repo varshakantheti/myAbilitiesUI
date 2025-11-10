@@ -175,13 +175,13 @@ export function Footer() {
             <h3 className="text-lg font-semibold text-[#1E3A5F] mb-4">Quick Contact</h3>
             <ul className="space-y-2 text-black/80">
               <li className="flex items-center gap-2">
-                <Phone className="w-4 h-4" />
+                <Phone className="w-4 h-4 flex-shrink-0" />
                 <a href="tel:404-882-1117" className="hover:text-[#1E3A5F] transition-colors">
                   Phone: 404-882-1117
                 </a>
               </li>
               <li className="flex items-center gap-2">
-                <Mail className="w-4 h-4" />
+                <Mail className="w-4 h-4 flex-shrink-0" />
                 <a href="mailto:cmeertins@myabilities.org" className="hover:text-[#1E3A5F] transition-colors">
                   cmeertins@myabilities.org
                 </a>

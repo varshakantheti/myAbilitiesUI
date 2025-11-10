@@ -9,7 +9,7 @@ export function Hero() {
   return (
     <section 
       id="home"
-      className="min-h-screen flex items-center bg-gradient-to-br from-[#FF9A4D] to-[#FFB366] pt-8"
+      className="min-h-screen flex items-center bg-gradient-to-br from-[#FF9A4D] via-[#FFCC99] to-[#FFD9B3] pt-8"
     >
       <div className="container mx-auto px-6 lg:px-12 py-16 lg:py-24">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center max-w-7xl mx-auto">
@@ -25,7 +25,7 @@ export function Hero() {
               Every Task. Every Day.
             </h1>
             
-            <p className="text-xl lg:text-2xl text-white/90 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+            <p className="text-xl lg:text-2xl text-gray-500 font-normal max-w-2xl mx-auto lg:mx-0 leading-relaxed">
               Accessible task scheduling for schools, special needs participants, seniors, caregivers, and veterans with tools for independence.
             </p>
               
@@ -56,7 +56,7 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.2 }}
           >
               <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-[#FFB366] to-[#FF9A4D] rounded-3xl blur-3xl opacity-20 transform scale-95"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-[#FF9A4D] via-[#FFCC99] to-[#FFD9B3] rounded-3xl blur-3xl opacity-20 transform scale-95"></div>
                 <div className="relative bg-white rounded-3xl shadow-2xl p-6 lg:p-8 max-w-xs">
                   <div className="w-full bg-gradient-to-br from-[#FFF5EB] to-white rounded-2xl overflow-hidden shadow-lg">
                     <ImageWithFallback

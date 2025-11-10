@@ -5,6 +5,8 @@ import { Features } from "./components/Features";
 import { Mission } from "./components/Mission";
 import { Products } from "./components/Products";
 import { Testimonials } from "./components/Testimonials";
+import { DownloadApp } from "./components/DownloadApp";
+import { Contact } from "./components/Contact";
 import { AccessibilityToolbar } from "./components/AccessibilityToolbar";
 import { Footer } from "./components/Footer";
 
@@ -19,6 +21,8 @@ export default function App() {
         <Mission />
         <Products />
         <Testimonials />
+        <DownloadApp />
+        <Contact />
       </main>
       <Footer />
       <AccessibilityToolbar />

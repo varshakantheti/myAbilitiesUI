@@ -29,7 +29,7 @@ export function Mission() {
   ];
 
   return (
-    <section id="mission" className="py-20 lg:py-28 bg-gradient-to-br from-[#FFF9F0] to-white">
+    <section id="mission" className="py-20 lg:py-28 bg-gradient-to-br from-[#FFB366] via-[#FFCC99] to-[#FFD9B3]">
       <div className="container mx-auto px-6 lg:px-12">
         <motion.div
           className="text-center mb-16 max-w-3xl mx-auto"

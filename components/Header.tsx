@@ -15,7 +15,13 @@ export function Header() {
     en: {
       home: "Home",
       about: "About Us",
+      team: "Team",
+      hospitals: "Hospitals",
+      leadership: "Leadership",
       products: "Products",
+      autism: "Autism",
+      history: "History",
+      videos: "Videos",
       mission: "Mission",
       donate: "Donate Now",
       call: "Call",
@@ -24,7 +30,13 @@ export function Header() {
     es: {
       home: "Inicio",
       about: "Sobre Nosotros",
+      team: "Equipo",
+      hospitals: "Hospitales",
+      leadership: "Liderazgo",
       products: "Productos",
+      autism: "Autismo",
+      history: "Historia",
+      videos: "Videos",
       mission: "Misión",
       donate: "Donar Ahora",
       call: "Llamar",
@@ -59,22 +71,34 @@ export function Header() {
           {/* Navigation */}
           <nav className="hidden lg:flex items-center gap-1">
             <a 
+              href="#home" 
+              className="px-4 py-2 text-[#1A3A52] hover:text-[#1E3A5F] hover:bg-[#1E3A5F]/10 rounded-lg transition-all focus:outline-2 focus:outline-[#1E3A5F] focus:outline-offset-2 font-semibold"
+            >
+              {t.home}
+            </a>
+            <a 
               href="#about" 
-              className="px-4 py-2 text-[#1A3A52] hover:text-[#FFB366] hover:bg-[#FFB366]/10 rounded-lg transition-all focus:outline-2 focus:outline-[#FFB366] focus:outline-offset-2"
+              className="px-4 py-2 text-[#1A3A52] hover:text-[#1E3A5F] hover:bg-[#1E3A5F]/10 rounded-lg transition-all focus:outline-2 focus:outline-[#1E3A5F] focus:outline-offset-2 whitespace-nowrap font-semibold"
             >
               {t.about}
             </a>
             <a 
+              href="#hospitals" 
+              className="px-4 py-2 text-[#1A3A52] hover:text-[#1E3A5F] hover:bg-[#1E3A5F]/10 rounded-lg transition-all focus:outline-2 focus:outline-[#1E3A5F] focus:outline-offset-2 font-semibold"
+            >
+              {t.hospitals}
+            </a>
+            <a 
               href="#products" 
-              className="px-4 py-2 text-[#1A3A52] hover:text-[#FFB366] hover:bg-[#FFB366]/10 rounded-lg transition-all focus:outline-2 focus:outline-[#FFB366] focus:outline-offset-2"
+              className="px-4 py-2 text-[#1A3A52] hover:text-[#1E3A5F] hover:bg-[#1E3A5F]/10 rounded-lg transition-all focus:outline-2 focus:outline-[#1E3A5F] focus:outline-offset-2 font-semibold"
             >
               {t.products}
             </a>
             <a 
-              href="#mission" 
-              className="px-4 py-2 text-[#1A3A52] hover:text-[#FFB366] hover:bg-[#FFB366]/10 rounded-lg transition-all focus:outline-2 focus:outline-[#FFB366] focus:outline-offset-2"
+              href="#autism" 
+              className="px-4 py-2 text-[#1A3A52] hover:text-[#1E3A5F] hover:bg-[#1E3A5F]/10 rounded-lg transition-all focus:outline-2 focus:outline-[#1E3A5F] focus:outline-offset-2 font-semibold"
             >
-              {t.mission}
+              {t.autism}
             </a>
           </nav>
 
@@ -94,8 +118,7 @@ export function Header() {
 
             {/* Download Button */}
             <Button 
-              variant="outline"
-              className="hidden md:flex items-center gap-2 border-2 border-[#1E3A5F] text-[#1E3A5F] hover:bg-[#1E3A5F] hover:text-white rounded-xl h-11 px-5 transition-all"
+              className="hidden md:flex items-center gap-2 bg-[#1E3A5F] hover:bg-[#2C4F7C] text-white rounded-xl h-11 px-5 transition-all"
               onClick={() => window.location.href = '#download'}
             >
               <Download className="w-4 h-4" />
@@ -104,8 +127,7 @@ export function Header() {
 
             {/* Call Button */}
             <Button 
-              variant="outline"
-              className="hidden md:flex items-center gap-2 border-2 border-[#1E3A5F] text-[#1E3A5F] hover:bg-[#1E3A5F] hover:text-white rounded-xl h-11 px-5 transition-all"
+              className="hidden md:flex items-center gap-2 bg-[#1E3A5F] hover:bg-[#2C4F7C] text-white rounded-xl h-11 px-5 transition-all"
               onClick={() => window.location.href = 'tel:800-920-4011'}
             >
               <Phone className="w-4 h-4" />

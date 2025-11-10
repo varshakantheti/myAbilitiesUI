@@ -9,24 +9,24 @@ export function Hero() {
   return (
     <section 
       id="home"
-      className="min-h-screen flex items-center bg-gradient-to-br from-[#FFB366] via-[#FFCC99] to-[#FFD9B3] pt-8"
+      className="min-h-screen flex items-center bg-gradient-to-br from-[#FF9A4D] to-[#FFB366] pt-8"
     >
       <div className="container mx-auto px-6 lg:px-12 py-16 lg:py-24">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center max-w-7xl mx-auto">
           {/* Left Column - Text */}
           <motion.div 
-            className="space-y-8 text-center lg:text-left"
+            className="space-y-8 text-center lg:text-left lg:ml-8"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <h1 className="text-4xl lg:text-5xl text-black leading-tight max-w-3xl mx-auto lg:mx-0 tracking-tight">
-              Empowering Every Ability.<br />
+            <h1 className="text-4xl lg:text-5xl text-black leading-tight mx-auto lg:mx-0 tracking-tight font-bold">
+              <span className="whitespace-nowrap">Empowering Every Ability.</span><br />
               Every Task. Every Day.
             </h1>
             
-            <p className="text-xl lg:text-2xl text-black max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              MyAbilities Task Scheduler helps schools, caregivers, and participants stay organized and independent through accessible task management tools.
+            <p className="text-xl lg:text-2xl text-white/90 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+              Accessible task scheduling for schools, special needs participants, seniors, caregivers, and veterans with tools for independence.
             </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
@@ -50,7 +50,7 @@ export function Hero() {
 
           {/* Right Column - Phone Mockup */}
           <motion.div
-            className="flex justify-center lg:justify-end"
+            className="flex justify-center lg:justify-end lg:mr-16"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7, delay: 0.2 }}

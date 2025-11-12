@@ -69,7 +69,7 @@ export function AccessibilityToolbar() {
             className="fixed bottom-24 right-6 z-50 bg-white dark:bg-[#1A1F26] rounded-2xl shadow-2xl border border-gray-200 dark:border-gray-700 p-6 w-80"
           >
             <div className="flex items-center justify-between mb-6">
-              <h3 className="text-lg text-[#1E3A5F] dark:text-white">
+              <h3 className="text-lg text-[#457eac] dark:text-white">
                 Accessibility Tools
               </h3>
               <Button
@@ -93,7 +93,7 @@ export function AccessibilityToolbar() {
                   <Button
                     onClick={handleZoomOut}
                     disabled={fontSize <= 14}
-                    className="flex-1 bg-gray-100 dark:bg-gray-800 hover:bg-[#FFB366] hover:text-white dark:hover:bg-[#FFB366] text-[#1E3A5F] dark:text-white rounded-xl h-12 transition-all disabled:opacity-40 disabled:cursor-not-allowed"
+                    className="flex-1 bg-gray-100 dark:bg-gray-800 hover:bg-[#FFB366] hover:text-white dark:hover:bg-[#FFB366] text-[#457eac] dark:text-white rounded-xl h-12 transition-all disabled:opacity-40 disabled:cursor-not-allowed"
                     aria-label="Decrease text size"
                   >
                     <ZoomOut className="w-5 h-5 mr-2" />
@@ -102,7 +102,7 @@ export function AccessibilityToolbar() {
                   <Button
                     onClick={handleZoomIn}
                     disabled={fontSize >= 28}
-                    className="flex-1 bg-gray-100 dark:bg-gray-800 hover:bg-[#FFB366] hover:text-white dark:hover:bg-[#FFB366] text-[#1E3A5F] dark:text-white rounded-xl h-12 transition-all disabled:opacity-40 disabled:cursor-not-allowed"
+                    className="flex-1 bg-gray-100 dark:bg-gray-800 hover:bg-[#FFB366] hover:text-white dark:hover:bg-[#FFB366] text-[#457eac] dark:text-white rounded-xl h-12 transition-all disabled:opacity-40 disabled:cursor-not-allowed"
                     aria-label="Increase text size"
                   >
                     <ZoomIn className="w-5 h-5 mr-2" />
@@ -123,8 +123,8 @@ export function AccessibilityToolbar() {
                   onClick={() => setHighContrast(!highContrast)}
                   className={`w-full h-12 rounded-xl transition-all ${
                     highContrast
-                      ? 'bg-[#1E3A5F] text-white hover:bg-[#2C4F7C]'
-                      : 'bg-gray-100 dark:bg-gray-800 hover:bg-[#FFB366] text-[#1E3A5F] dark:text-white hover:text-white'
+                      ? 'bg-[#457eac] text-white hover:bg-[#37648c]'
+                      : 'bg-gray-100 dark:bg-gray-800 hover:bg-[#FFB366] text-[#457eac] dark:text-white hover:text-white'
                   }`}
                   aria-label={`${highContrast ? 'Disable' : 'Enable'} high contrast mode`}
                   aria-pressed={highContrast}

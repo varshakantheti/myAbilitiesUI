@@ -34,7 +34,7 @@ export function Products() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl lg:text-5xl text-[#1E3A5F] mb-4">
+          <h2 className="text-4xl lg:text-5xl text-[#457eac] mb-4">
             Products
           </h2>
           <p className="text-xl text-[#1A3A52]">
@@ -56,7 +56,7 @@ export function Products() {
                   <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#FFB366] to-[#FF9A4D] flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-md">
                     <product.icon className="w-8 h-8 text-white" strokeWidth={2.5} />
                   </div>
-                  <CardTitle className="text-2xl text-[#1E3A5F]">
+                  <CardTitle className="text-2xl text-[#457eac]">
                     {product.title}
                   </CardTitle>
                 </CardHeader>
@@ -66,7 +66,7 @@ export function Products() {
                   </CardDescription>
                   <Button 
                     variant="outline"
-                    className="w-full border-2 border-[#1E3A5F] text-[#1E3A5F] hover:bg-[#1E3A5F] hover:text-white rounded-xl h-12 transition-all duration-300 group/btn"
+                    className="w-full border-2 border-[#457eac] text-[#457eac] hover:bg-[#457eac] hover:text-white rounded-xl h-12 transition-all duration-300 group/btn"
                   >
                     Learn More
                     <ChevronRight className="w-5 h-5 ml-2 group-hover/btn:translate-x-1 transition-transform" />

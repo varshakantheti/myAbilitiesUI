@@ -38,7 +38,7 @@ export function Mission() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl lg:text-5xl text-[#1E3A5F] mb-4">
+          <h2 className="text-4xl lg:text-5xl text-[#457eac] mb-4">
             Our Mission
           </h2>
           <p className="text-xl text-[#1A3A52]">
@@ -81,7 +81,7 @@ export function Mission() {
                 <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#FFB366] to-[#FF9A4D] flex items-center justify-center mb-4">
                   <value.icon className="w-6 h-6 text-white" strokeWidth={2.5} />
                 </div>
-                <h3 className="text-lg text-[#1E3A5F] mb-2">
+                <h3 className="text-lg text-[#457eac] mb-2">
                   {value.title}
                 </h3>
                 <p className="text-[#1A3A52]">

@@ -40,50 +40,50 @@ export function Footer() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
           {/* Quick Links */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-[#1E3A5F] mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold text-[#457eac] mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#home" className="text-black/80 hover:text-[#1E3A5F] transition-colors">
+                <a href="#home" className="text-black/80 hover:text-[#457eac] transition-colors">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#about" className="text-black/80 hover:text-[#1E3A5F] transition-colors">
+                <a href="#about" className="text-black/80 hover:text-[#457eac] transition-colors">
                   About us – Team
                 </a>
               </li>
               <li>
-                <a href="#leadership" className="text-black/80 hover:text-[#1E3A5F] transition-colors">
+                <a href="#leadership" className="text-black/80 hover:text-[#457eac] transition-colors">
                   Leadership
                 </a>
               </li>
               <li>
-                <a href="#autism" className="text-black/80 hover:text-[#1E3A5F] transition-colors">
+                <a href="#autism" className="text-black/80 hover:text-[#457eac] transition-colors">
                   Autism
                 </a>
               </li>
               <li>
-                <a href="#hospitals" className="text-black/80 hover:text-[#1E3A5F] transition-colors">
+                <a href="#hospitals" className="text-black/80 hover:text-[#457eac] transition-colors">
                   Hospitals
                 </a>
               </li>
               <li>
-                <a href="#donate" className="text-black/80 hover:text-[#1E3A5F] transition-colors">
+                <a href="#donate" className="text-black/80 hover:text-[#457eac] transition-colors">
                   Donate Now – Tax Deductible
                 </a>
               </li>
               <li>
-                <a href="#history" className="text-black/80 hover:text-[#1E3A5F] transition-colors">
+                <a href="#history" className="text-black/80 hover:text-[#457eac] transition-colors">
                   History
                 </a>
               </li>
               <li>
-                <a href="#management-console" className="text-black/80 hover:text-[#1E3A5F] transition-colors">
+                <a href="#management-console" className="text-black/80 hover:text-[#457eac] transition-colors">
                   Management Console
                 </a>
               </li>
               <li>
-                <a href="#videos" className="text-black/80 hover:text-[#1E3A5F] transition-colors">
+                <a href="#videos" className="text-black/80 hover:text-[#457eac] transition-colors">
                   videos
                 </a>
               </li>
@@ -92,25 +92,25 @@ export function Footer() {
 
           {/* Products */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-[#1E3A5F] mb-4">Products</h3>
+            <h3 className="text-lg font-semibold text-[#457eac] mb-4">Products</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#task-scheduler" className="text-black/80 hover:text-[#1E3A5F] transition-colors">
+                <a href="#task-scheduler" className="text-black/80 hover:text-[#457eac] transition-colors">
                   Task Scheduler
                 </a>
               </li>
               <li>
-                <a href="#physician" className="text-black/80 hover:text-[#1E3A5F] transition-colors">
+                <a href="#physician" className="text-black/80 hover:text-[#457eac] transition-colors">
                   Physician
                 </a>
               </li>
               <li>
-                <a href="#management-console" className="text-black/80 hover:text-[#1E3A5F] transition-colors">
+                <a href="#management-console" className="text-black/80 hover:text-[#457eac] transition-colors">
                   Management Console
                 </a>
               </li>
               <li>
-                <a href="#download" className="text-black/80 hover:text-[#1E3A5F] transition-colors">
+                <a href="#download" className="text-black/80 hover:text-[#457eac] transition-colors">
                   Download App
                 </a>
               </li>
@@ -119,35 +119,35 @@ export function Footer() {
 
           {/* Follow Us on */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-[#1E3A5F] mb-4">Follow Us on</h3>
+            <h3 className="text-lg font-semibold text-[#457eac] mb-4">Follow Us on</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="flex items-center gap-3 text-black/80 hover:text-[#1E3A5F] transition-colors">
-                  <div className="w-8 h-8 bg-[#1E3A5F] rounded flex items-center justify-center">
+                <a href="#" className="flex items-center gap-3 text-black/80 hover:text-[#457eac] transition-colors">
+                  <div className="w-8 h-8 bg-[#457eac] rounded flex items-center justify-center">
                     <Facebook className="w-4 h-4 text-white" />
                   </div>
                   <span>Facebook</span>
                 </a>
               </li>
               <li>
-                <a href="#" className="flex items-center gap-3 text-black/80 hover:text-[#1E3A5F] transition-colors">
-                  <div className="w-8 h-8 bg-[#1E3A5F] rounded flex items-center justify-center">
+                <a href="#" className="flex items-center gap-3 text-black/80 hover:text-[#457eac] transition-colors">
+                  <div className="w-8 h-8 bg-[#457eac] rounded flex items-center justify-center">
                     <Instagram className="w-4 h-4 text-white" />
                   </div>
                   <span>Instagram</span>
                 </a>
               </li>
               <li>
-                <a href="#" className="flex items-center gap-3 text-black/80 hover:text-[#1E3A5F] transition-colors">
-                  <div className="w-8 h-8 bg-[#1E3A5F] rounded flex items-center justify-center">
+                <a href="#" className="flex items-center gap-3 text-black/80 hover:text-[#457eac] transition-colors">
+                  <div className="w-8 h-8 bg-[#457eac] rounded flex items-center justify-center">
                     <Linkedin className="w-4 h-4 text-white" />
                   </div>
                   <span>Linkedin</span>
                 </a>
               </li>
               <li>
-                <a href="#" className="flex items-center gap-3 text-black/80 hover:text-[#1E3A5F] transition-colors">
-                  <div className="w-8 h-8 bg-[#1E3A5F] rounded flex items-center justify-center">
+                <a href="#" className="flex items-center gap-3 text-black/80 hover:text-[#457eac] transition-colors">
+                  <div className="w-8 h-8 bg-[#457eac] rounded flex items-center justify-center">
                     <Youtube className="w-4 h-4 text-white" />
                   </div>
                   <span>Youtube</span>
@@ -158,10 +158,10 @@ export function Footer() {
 
           {/* Download */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-[#1E3A5F] mb-4">Download</h3>
+            <h3 className="text-lg font-semibold text-[#457eac] mb-4">Download</h3>
             <a 
               href="#" 
-              className="flex items-center gap-3 bg-[#1E3A5F] text-white px-4 py-3 rounded-lg hover:bg-[#2C4F7C] transition-colors"
+              className="flex items-center gap-3 bg-[#457eac] text-white px-4 py-3 rounded-lg hover:bg-[#37648c] transition-colors"
             >
               <div className="w-6 h-6 bg-white rounded flex items-center justify-center">
                 <span className="text-black text-xs font-bold">G</span>
@@ -172,17 +172,17 @@ export function Footer() {
 
           {/* Quick Contact */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-[#1E3A5F] mb-4">Quick Contact</h3>
+            <h3 className="text-lg font-semibold text-[#457eac] mb-4">Quick Contact</h3>
             <ul className="space-y-2 text-black/80">
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 flex-shrink-0" />
-                <a href="tel:404-882-1117" className="hover:text-[#1E3A5F] transition-colors">
+                <a href="tel:404-882-1117" className="hover:text-[#457eac] transition-colors">
                   Phone: 404-882-1117
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 flex-shrink-0" />
-                <a href="mailto:cmeertins@myabilities.org" className="hover:text-[#1E3A5F] transition-colors">
+                <a href="mailto:cmeertins@myabilities.org" className="hover:text-[#457eac] transition-colors">
                   cmeertins@myabilities.org
                 </a>
               </li>

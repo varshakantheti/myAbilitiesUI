@@ -38,7 +38,7 @@ export function Features() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl lg:text-5xl text-[#1E3A5F] mb-4">
+          <h2 className="text-4xl lg:text-5xl text-[#457eac] mb-4">
             Built for Independence
           </h2>
           <p className="text-xl text-[#1A3A52]">
@@ -61,7 +61,7 @@ export function Features() {
                     <feature.icon className="w-8 h-8 text-white" strokeWidth={2.5} />
                   </div>
                   
-                  <h3 className="text-xl text-[#1E3A5F]">
+                  <h3 className="text-xl text-[#457eac]">
                     {feature.title}
                   </h3>
                   

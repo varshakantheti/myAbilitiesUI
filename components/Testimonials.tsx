@@ -35,7 +35,7 @@ export function Testimonials() {
   ];
 
   return (
-    <section className="py-20 lg:py-28 bg-gradient-to-br from-[#1E3A5F] via-[#2C4F7C] to-[#1E3A5F] relative overflow-hidden">
+    <section className="py-20 lg:py-28 bg-gradient-to-br from-[#457eac] via-[#37648c] to-[#457eac] relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-0 left-0 w-96 h-96 bg-[#FFB366] rounded-full blur-3xl"></div>
@@ -84,7 +84,7 @@ export function Testimonials() {
                       />
                     </div>
                     <div className="min-w-0">
-                      <p className="text-[#1E3A5F] truncate">{testimonial.name}</p>
+                      <p className="text-[#457eac] truncate">{testimonial.name}</p>
                       <p className="text-sm text-[#1A3A52]/70 truncate">{testimonial.role}</p>
                     </div>
                   </div>
@@ -104,7 +104,7 @@ export function Testimonials() {
           <Button 
             size="lg"
             variant="outline"
-            className="border-2 border-white bg-white text-[#1E3A5F] hover:bg-white/90 hover:text-[#1E3A5F] rounded-xl h-14 px-8 transition-all text-lg group"
+            className="border-2 border-white bg-white text-[#457eac] hover:bg-white/90 hover:text-[#457eac] rounded-xl h-14 px-8 transition-all text-lg group"
           >
             Read More Stories
             <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />

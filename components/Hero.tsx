@@ -32,7 +32,7 @@ export function Hero() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
                 <Button 
                   size="lg"
-                  className="bg-[#1E3A5F] hover:bg-[#2C4F7C] text-white h-14 px-8 rounded-xl shadow-lg hover:shadow-xl transition-all text-lg group"
+                  className="bg-[#457eac] hover:bg-[#37648c] text-white h-14 px-8 rounded-xl shadow-lg hover:shadow-xl transition-all text-lg group"
                 >
                   <Download className="w-5 h-5 mr-2 group-hover:animate-pulse" />
                   Download App
@@ -40,7 +40,7 @@ export function Hero() {
                 <Button 
                   size="lg"
                   variant="outline"
-                  className="border-2 border-[#1E3A5F] text-[#1E3A5F] hover:bg-[#1E3A5F] hover:text-white h-14 px-8 rounded-xl transition-all text-lg group"
+                  className="border-2 border-[#457eac] text-[#457eac] hover:bg-[#457eac] hover:text-white h-14 px-8 rounded-xl transition-all text-lg group"
                 >
                   Learn More
                   <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />

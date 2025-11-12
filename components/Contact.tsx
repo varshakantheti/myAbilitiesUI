@@ -47,7 +47,7 @@ export function Contact() {
 
           {/* Right Section - Contact Form */}
           <div className="w-full lg:-ml-8">
-            <h2 className="text-3xl lg:text-4xl font-bold text-[#1E3A5F] mb-8">
+            <h2 className="text-3xl lg:text-4xl font-bold text-[#457eac] mb-8">
               Contact Us
             </h2>
 
@@ -137,7 +137,7 @@ export function Contact() {
               <div className="pt-2">
                 <Button
                   type="submit"
-                  className="w-full bg-black hover:bg-gray-800 text-white uppercase font-semibold py-4 px-8 rounded-lg transition-all"
+                  className="w-full bg-[#457eac] hover:bg-[#37648c] text-white uppercase font-semibold py-4 px-8 rounded-lg transition-all"
                 >
                   SUBMIT
                 </Button>

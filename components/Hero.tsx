@@ -26,7 +26,7 @@ export function Hero() {
             </h1>
             
             <p className="text-xl lg:text-2xl text-gray-500 font-normal max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              Accessible task scheduling for schools, special needs participants, seniors, caregivers, and veterans with tools for independence.
+              MyAbilities Task Scheduler is a mobile app and management console that empowers schools, special needs participants, seniors, caregivers, and veterans with accessible tools for independence.
             </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">

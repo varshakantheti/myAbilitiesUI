@@ -19,8 +19,8 @@ export function Products() {
     },
     {
       icon: Stethoscope,
-      title: "Clinical Tools",
-      description: "Healthcare provider tools for prescribing routines and monitoring patient progress.",
+      title: "For Physicians",
+      description: "Send medication instructions and schedules directly to patients' phones to speed up recovery and promote healthier habits.",
     }
   ];
 

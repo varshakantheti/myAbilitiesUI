@@ -17,9 +17,9 @@ export default function App() {
       <Header />
       <main id="main-content" className="focus:outline-none" tabIndex={-1}>
         <Hero />
-        <Features />
-        <Mission />
         <Products />
+        <Mission />
+        <Features />
         <Testimonials />
         <DownloadApp />
         <Contact />

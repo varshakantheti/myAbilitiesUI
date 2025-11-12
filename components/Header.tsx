@@ -83,22 +83,22 @@ export function Header() {
               {t.about}
             </a>
             <a 
-              href="#hospitals" 
-              className="px-4 py-2 text-[#1A3A52] hover:text-[#1E3A5F] hover:bg-[#1E3A5F]/10 rounded-lg transition-all focus:outline-2 focus:outline-[#1E3A5F] focus:outline-offset-2 font-semibold"
-            >
-              {t.hospitals}
-            </a>
-            <a 
               href="#products" 
               className="px-4 py-2 text-[#1A3A52] hover:text-[#1E3A5F] hover:bg-[#1E3A5F]/10 rounded-lg transition-all focus:outline-2 focus:outline-[#1E3A5F] focus:outline-offset-2 font-semibold"
             >
               {t.products}
             </a>
             <a 
-              href="#autism" 
+              href="#mission" 
               className="px-4 py-2 text-[#1A3A52] hover:text-[#1E3A5F] hover:bg-[#1E3A5F]/10 rounded-lg transition-all focus:outline-2 focus:outline-[#1E3A5F] focus:outline-offset-2 font-semibold"
             >
-              {t.autism}
+              {t.mission}
+            </a>
+            <a 
+              href="#videos" 
+              className="px-4 py-2 text-[#1A3A52] hover:text-[#1E3A5F] hover:bg-[#1E3A5F]/10 rounded-lg transition-all focus:outline-2 focus:outline-[#1E3A5F] focus:outline-offset-2 font-semibold"
+            >
+              {t.videos}
             </a>
           </nav>
 

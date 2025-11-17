@@ -53,17 +53,17 @@ export function Header() {
           {/* Logo */}
           <a 
             href="#home" 
-            className="flex items-center gap-3 group focus:outline-2 focus:outline-[#FFB366] focus:outline-offset-4 rounded-lg"
+            className="flex items-center gap-3 group focus:outline-2 focus:outline-[#FFB366] focus:outline-offset-4 rounded-lg mt-4 -ml-12"
             aria-label="MyAbilities Home"
           >
             <img 
-              src={`${import.meta.env.BASE_URL}assets/logo.png`} 
+              src={`${import.meta.env.BASE_URL}assets/HorizontalLogo.png`} 
               alt="MyAbilities Logo" 
-              className="h-20 w-auto group-hover:opacity-90 transition-opacity"
+              className="h-56 w-auto group-hover:opacity-90 transition-opacity"
               onError={(e) => {
-                // Fallback to SVG if PNG doesn't exist
+                // Fallback to original logo if HorizontalLogo doesn't exist
                 const target = e.target as HTMLImageElement;
-                target.src = `${import.meta.env.BASE_URL}assets/logo.svg`;
+                target.src = `${import.meta.env.BASE_URL}assets/logo.png`;
               }}
             />
           </a>

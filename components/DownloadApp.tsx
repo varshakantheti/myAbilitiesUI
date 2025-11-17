@@ -61,22 +61,16 @@ export function DownloadApp() {
             {/* Google Play Button */}
             <a
               href="#"
-              className="flex items-center gap-3 bg-black text-white px-6 py-4 rounded-lg hover:bg-gray-900 transition-colors min-w-[280px] justify-center"
+              className="flex items-center justify-center bg-black text-white px-6 py-4 rounded-lg hover:bg-gray-900 transition-colors min-w-[280px]"
             >
-              <div className="w-8 h-8 bg-white rounded flex items-center justify-center">
-                <span className="text-black text-sm font-bold">G</span>
-              </div>
               <span className="text-sm font-medium">ANDROID APP ON Google play</span>
             </a>
 
             {/* App Store Button */}
             <a
               href="#"
-              className="flex items-center gap-3 bg-black text-white px-6 py-4 rounded-lg hover:bg-gray-900 transition-colors min-w-[280px] justify-center"
+              className="flex items-center justify-center bg-black text-white px-6 py-4 rounded-lg hover:bg-gray-900 transition-colors min-w-[280px]"
             >
-              <div className="w-8 h-8 bg-white rounded flex items-center justify-center">
-                <span className="text-black text-lg">🍎</span>
-              </div>
               <span className="text-sm font-medium">Download on the App Store</span>
             </a>
           </motion.div>

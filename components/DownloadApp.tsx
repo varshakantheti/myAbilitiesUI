@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "motion/react";
+import { Download } from "lucide-react";
 
 export function DownloadApp() {
   return (
@@ -50,28 +51,20 @@ export function DownloadApp() {
             Customizable Reminders • Push Notifications • Accessibility Friendly
           </motion.p>
 
-          {/* App Download Buttons */}
+          {/* Download App Button */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+            className="flex justify-center items-center"
           >
-            {/* Google Play Button */}
             <a
               href="#"
-              className="flex items-center justify-center bg-black text-white px-6 py-4 rounded-lg hover:bg-gray-900 transition-colors min-w-[280px]"
+              className="flex items-center gap-3 bg-[#457eac] text-white px-8 py-4 rounded-lg hover:bg-[#37648c] transition-colors"
             >
-              <span className="text-sm font-medium">ANDROID APP ON Google play</span>
-            </a>
-
-            {/* App Store Button */}
-            <a
-              href="#"
-              className="flex items-center justify-center bg-black text-white px-6 py-4 rounded-lg hover:bg-gray-900 transition-colors min-w-[280px]"
-            >
-              <span className="text-sm font-medium">Download on the App Store</span>
+              <Download className="w-5 h-5" />
+              <span className="text-base font-medium">Download App</span>
             </a>
           </motion.div>
         </div>

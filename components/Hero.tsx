@@ -4,8 +4,10 @@ import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { motion } from "motion/react";
 import { Download, ChevronRight } from "lucide-react";
+import { useLanguage } from "../contexts/LanguageContext";
 
 export function Hero() {
+  const { t } = useLanguage();
   return (
     <section 
       id="home"
@@ -21,12 +23,12 @@ export function Hero() {
             transition={{ duration: 0.7 }}
           >
             <h1 className="text-4xl lg:text-5xl text-black leading-tight mx-auto lg:mx-0 tracking-tight font-bold">
-              <span className="whitespace-nowrap">Empowering Every Ability.</span><br />
-              Every Task. Every Day.
+              <span className="whitespace-nowrap">{t.heroTitle1}</span><br />
+              {t.heroTitle2} {t.heroTitle3}
             </h1>
             
             <p className="text-xl lg:text-2xl text-gray-500 font-normal max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              MyAbilities Task Scheduler is a mobile app and management console that empowers schools, special needs participants, seniors, caregivers, and veterans with accessible tools for independence.
+              {t.heroDescription}
             </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
@@ -35,14 +37,14 @@ export function Hero() {
                   className="bg-[#457eac] hover:bg-[#37648c] text-white h-14 px-8 rounded-xl shadow-lg hover:shadow-xl transition-all text-lg group"
                 >
                   <Download className="w-5 h-5 mr-2 group-hover:animate-pulse" />
-                  Download App
+                  {t.downloadApp}
                 </Button>
                 <Button 
                   size="lg"
                   variant="outline"
                   className="border-2 border-[#457eac] text-[#457eac] hover:bg-[#457eac] hover:text-white h-14 px-8 rounded-xl transition-all text-lg group"
                 >
-                  Learn More
+                  {t.learnMore}
                   <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </div>

@@ -3,7 +3,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { Button } from "./ui/button";
 import { motion } from "motion/react";
-import { Calendar, LayoutDashboard, Stethoscope, ChevronRight } from "lucide-react";
+import { Calendar, LayoutDashboard, ChevronRight } from "lucide-react";
 
 export function Products() {
   const products = [
@@ -16,11 +16,6 @@ export function Products() {
       icon: LayoutDashboard,
       title: "Management Console",
       description: "Dashboard for caregivers to create, assign, and track tasks with real-time updates.",
-    },
-    {
-      icon: Stethoscope,
-      title: "For Physicians",
-      description: "Send medication instructions and schedules directly to patients' phones to speed up recovery and promote healthier habits.",
     }
   ];
 
@@ -43,12 +38,26 @@ export function Products() {
         </motion.div>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          {/* Icon Image */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0 }}
+            viewport={{ once: true }}
+            className="flex items-center justify-center"
+          >
+            <img
+              src={`${import.meta.env.BASE_URL}assets/icon.png`}
+              alt="Icon"
+              className="w-full h-auto object-contain"
+            />
+          </motion.div>
           {products.map((product, index) => (
             <motion.div
               key={product.title}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: index * 0.15 }}
+              transition={{ duration: 0.6, delay: (index + 1) * 0.15 }}
               viewport={{ once: true }}
             >
               <Card className="h-full bg-gradient-to-br from-white to-[#FFF9F0] border-2 border-gray-100 hover:border-[#FFB366] transition-all duration-300 hover:shadow-2xl group rounded-2xl overflow-hidden">

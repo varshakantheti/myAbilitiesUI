@@ -1,50 +1,11 @@
 "use client";
 
-import { useState } from "react";
 import { Button } from "./ui/button";
 import { Phone, Globe, Download } from "lucide-react";
+import { useLanguage } from "../contexts/LanguageContext";
 
 export function Header() {
-  const [language, setLanguage] = useState<"en" | "es">("en");
-
-  const toggleLanguage = () => {
-    setLanguage(language === "en" ? "es" : "en");
-  };
-
-  const text = {
-    en: {
-      home: "Home",
-      about: "About Us",
-      team: "Team",
-      hospitals: "Hospitals",
-      leadership: "Leadership",
-      products: "Products",
-      autism: "Autism",
-      history: "History",
-      videos: "Videos",
-      mission: "Mission",
-      donate: "Donate Now",
-      call: "Call",
-      download: "Download App"
-    },
-    es: {
-      home: "Inicio",
-      about: "Sobre Nosotros",
-      team: "Equipo",
-      hospitals: "Hospitales",
-      leadership: "Liderazgo",
-      products: "Productos",
-      autism: "Autismo",
-      history: "Historia",
-      videos: "Videos",
-      mission: "Misión",
-      donate: "Donar Ahora",
-      call: "Llamar",
-      download: "Descargar App"
-    }
-  };
-
-  const t = text[language];
+  const { language, toggleLanguage, t } = useLanguage();
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm border-b border-gray-100">
